@@ -52,7 +52,7 @@ header ul li a:hover {
 
 /* Hero Section homepage*/
 .hero {
-    background: radial-gradient(circle, rgb(95, 126, 136), rgb(36, 36, 166));
+  background: radial-gradient(circle, rgb(95, 126, 136), rgb(36, 36, 166));
   text-align: center;
   flex-grow: 1;
   display: flex;
@@ -70,7 +70,7 @@ header ul li a:hover {
 }
 /*about me section styles*/
 .about_me {
-    background-color: #d4d0d0;
+  background-color: #d4d0d0;
   flex-grow: 1;
   width: 100%;
   display: flex;
@@ -99,6 +99,33 @@ header ul li a:hover {
   flex: 1;
 }
 
+/* skill section styles*/
+.skills {
+  background-color: #d4d0d0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  color: rgb(13, 132, 91);
+}
+.skills h1{
+    color: rgb(219, 49, 57);
+}
+.skills .skills_items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills_items ul li{
+   margin-bottom: 10px;
+   list-style: none;
+   font-size: 1.3em;
+   font-weight: 600;
+}
 
 /* Footer */
 footer {
@@ -111,10 +138,10 @@ footer {
   justify-content: center;
   align-items: center;
 }
-footer .social-icons{
-    margin-top: 3px;
-    display: flex; 
-    gap: 4;
+footer .social-icons {
+  margin-top: 3px;
+  display: flex;
+  gap: 4;
 }
 footer .social-icons img {
   width: 40px;
