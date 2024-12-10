@@ -111,8 +111,13 @@ header ul li a:hover {
   padding: 25px;
   color: rgb(13, 132, 91);
 }
-.skills h1{
-    color: rgb(219, 49, 57);
+.skills h1 {
+  font-size: 2em; 
+  font-weight: bold;
+  background: linear-gradient(to right, rgb(238, 19, 19), rgb(165, 89, 97));
+  background-clip:initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .skills .skills_items {
   width: 100%;
@@ -126,6 +131,10 @@ header ul li a:hover {
    list-style: none;
    font-size: 1.3em;
    font-weight: 600;
+   background: linear-gradient(to right,  rgb(63, 66, 63), rgb(45, 147, 30));
+   background-clip:initial;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
 
